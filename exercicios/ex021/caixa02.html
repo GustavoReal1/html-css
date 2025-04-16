@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color:rgb(249, 252, 252);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            
+        }
+        header{
+            text-align: center;
+            font-size: 25px ;
+            color: rgb(236, 172, 172);
+            border: 10px groove black;
+            padding: 10px;
+            margin: 5px 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 20px black;
+        }
+        
+
+        nav {
+            text-align: center;
+            font-size: 20px;
+            margin: 20px;
+            padding: 10px;
+
+            
+        }
+
+        main{
+            border: 10px solid black;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: rgb(236, 172, 172);
+        }
+        
+        nav:hover{
+            text-decoration: underline;
+        }
+
+        article > p{
+            text-align: justify;
+        
+        }
+        footer{
+            text-align: center;
+            color: white;
+            text-decoration: underline;
+            margin-top: 10px;
+            border: 10px solid black;
+            background-color: black;
+        }
+        
+        footer > p{
+            margin: 0px;
+        }
+        .palmeiras{
+            color: green;
+            
+        }
+
+        div#bola{
+            text-align: center;
+            width: 100px;
+            height: 100px;
+            margin-left: 50%;
+            background-color: black;
+            border-radius: 50%;
+          
+        }
+        
+    </style>
+</head>
+<body>
+     <header>
+        <h1>Noticias Esportivas</h1>
+     </header>
+     <nav>
+        <a href="#">Futebol Espanhol</a>
+        <a href="#">Futebol Brasileiro</a>
+        <a href="#">Futebol Francês</a>
+     </nav>
+     <main>
+        <h2 class="palmeiras">Palmeiras acerta contrataçao de Vitor Roque!</h2>
+        <article>
+            <p>Logo após dias de negociações entre Palmeiras e o clube espanhol Barcelona, as equipes entraram em um acordo e firmaram a venda do jogador ao clube brasileiro, custando 150 milhões de Euros.</p>
+            <aside>
+                <p>Fonte: Joao da silva</p>
+            </aside>
+        
+        <h2 class="corinthians">Corinthians</h2>
+        <article>
+            <p>
+                Clube brasileiro sofre processo de direitos de imagem do ex atleta do clube Zezinho Doido.
+                Segundo ele, o clube pagou apenas duas parcelas das 10 existentes, prevista em contrato.
+            </p>
+            <aside>
+                <p>Fonte: Joao de Lurdes</p>
+            </aside>
+        </article>
+     </main>
+     <footer>
+        <p>Desenvolvido por Gustavo Guimaraes</p>
+     </footer>]
+     <div id="bola"></div>
+</body>
+</html>
