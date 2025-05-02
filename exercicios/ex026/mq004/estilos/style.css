@@ -44,7 +44,7 @@ img{
     margin: auto;
 }
 
-#phone{}
+#phone{display: block;}
 #tablet {display:none;}
 #impressora{display: none;}
 #pc{display: none;}
